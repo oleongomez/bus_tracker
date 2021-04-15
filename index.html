@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Add a default marker</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="drawMap()">
+
+    <div id="map"></div>
+    <div class="container">
+        <p id="date_time" class="item"></p>
+        <p class="item">Chicago Bus Tracker System</p>
+        <p class="item">Click on the bus icon to see more information</p>
+    </div>
+    <script src="mapanimations.js"></script>
+    <script>
+        run()
+    </script>
+    
+</body>
+</html>
